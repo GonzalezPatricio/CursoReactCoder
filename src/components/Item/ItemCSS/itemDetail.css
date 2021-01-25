@@ -1,0 +1,79 @@
+.cardItem{
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.ImgCardItem{
+    width: 75%;
+    border: solid 2px black;
+}
+
+.CardItem{
+    display: block;
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.TitleCardItem{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 40px;
+    text-shadow: black 1px 1px 2px;
+}
+
+.DescriptionCardItem{
+    padding: 15px;
+}
+
+.PriceCardItem{
+    font-size: 35px;
+    color: red;
+}
+
+.CountCountainer{
+    margin: auto;
+}
+@media (max-width: 500px){
+    .cardItem{
+        display: block;
+        margin-top: 15px;
+        width: 90%;
+        margin-left: 50px ;
+    }
+    .CardItem{
+      width: 80%;
+      margin-left:0px;
+
+    }
+
+    .ImgCardItem{
+        width: 80%;
+    }
+
+    .ImgCardItem img{
+        width: 230px;
+    }
+    .TitleCardItem{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        border-bottom: 3px solid gray;
+        text-shadow: black 1px 1px 2px;
+        font-size: 20px;    
+        display: inline-block;
+    }
+    .DescriptionCardItem{
+        font-size: 18px;
+        padding: 0;
+    }
+    .DescriptionFullCardItem{
+        font-size: 12px;
+        text-transform: lowercase;
+    }
+    .PriceCardItem{
+        font-size: 25px;
+    }
+    }

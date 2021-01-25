@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.App {
+  text-align: center;
+}
+
+.divnavba {
+  display: flex;
+  margin-top: 20px;
+}
+
+.divHome {
+  background-color: wheat;
+  height: 750px;
+  width: 95%;
+  margin:auto;
+  margin-top: 30px;
+}

@@ -1,0 +1,15 @@
+h1 {
+    color: #343a40;
+    text-shadow: 1px 1px 3px black;
+}
+
+h3{
+    color: #343a40;
+    text-shadow: 1px 1px 3px black;
+}
+
+.logoChio{
+    width: 180px;
+    margin-top: 45px;
+    padding: 8px;
+}

@@ -1,0 +1,23 @@
+.liItems{
+    text-decoration: none;
+    padding: 20px;
+    align-content: center;
+    /* display: inline-block; */
+    margin-left: 20px;
+    width: 45%;
+    height: 550px;
+    margin-top: 40px;
+    border: solid 2px;
+}
+
+.divItems{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.imgitems{
+    width: 180px;
+}
