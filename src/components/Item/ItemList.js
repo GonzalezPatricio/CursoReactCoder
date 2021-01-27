@@ -1,8 +1,8 @@
 import React from 'react';
 import './Item';
-import '../Item/ItemCSS/itemlist.css'
+import '../Item/ItemCSS/itemlist.css';
 import { CountCountainer } from '../Count/CountContainer';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 
 export const ItemList = ({items}) => {

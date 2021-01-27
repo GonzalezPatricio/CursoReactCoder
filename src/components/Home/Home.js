@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
-import './home.css'
-import {ItemList} from '../Item/ItemList'
-import {items} from '../Item/Item'
+import './home.css';
+import {ItemList} from '../Item/ItemList';
+import {items} from '../Item/Item';
 
 
 

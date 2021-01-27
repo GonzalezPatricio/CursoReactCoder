@@ -1,9 +1,10 @@
 import React from 'react';
-import '../Item/ItemCSS/itemDetail.css'
+import '../Item/ItemCSS/itemDetail.css';
 import { CountCountainer } from '../Count/CountContainer';
 
 
 export default function ItemDetail({getItem}){
+
     return (
         <>
         <div className='cardItem'>
